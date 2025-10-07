@@ -20,6 +20,8 @@ const { audio_menu, bom_dia, boa_tarde, boa_noite, corno, qviado } = require('./
 
 const fotomenu = './database/menu/foto-menu.jpg';
 
+require("./express.js");
+
 const { Aki } = require('aki-api')
 const jogo = {jogador: "", now: true}
 
